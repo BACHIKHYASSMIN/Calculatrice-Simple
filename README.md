@@ -12,4 +12,4 @@ It allows users to perform:
 
 1. Clone the repository:
 ```bash
-https://github.com/BACHIKHYASSMIN/Calculatrice-Moderne.git
+https://github.com/BACHIKHYASSMIN/Calculatrice-Simple.git
