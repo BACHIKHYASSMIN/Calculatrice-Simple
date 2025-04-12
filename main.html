@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Moderne Calculatrice</title>
+</head>
+<body>
+    <div class="Screen">
+        <p id="Resultat"></p>
+    </div>
+    <div class="Calculatrice">
+    <div class="Operations">
+        <button onclick="operation(1)">+</button>
+        <button onclick="operation(2)">-</button>
+        <button onclick="operation(4)" >&divide;</button>
+        <button onclick="operation(3)" >&times;</button>
+    </div>
+        <div class="Numbers">
+    <button onclick="printValue(7)">7</button>
+    <button onclick="printValue(8)">8</button>
+    <button onclick="printValue(9)" >9</button>
+    <button onclick="printValue(4)" >4</button>
+    <button onclick="printValue(5)" >5</button>
+    <button onclick="printValue(6)" >6</button>
+    <button onclick="printValue(1)" >1</button>
+    <button onclick="printValue(2)" >2</button>
+    <button onclick="printValue(3)" >3</button>
+    <button onclick="printValue(0)" >0</button>
+    <button onclick="printValue()" >.</button>
+    <button id="Operation" onclick="printOnscreen()">=</button>
+        </div>
+        <div class="Control">
+            <button onclick="Clear()">CLR</button>
+            <button>(</button>
+            <button>)</button>
+            <button>MEM</button>
+        </div>
+    </div>
+    
+   
+       
+    
+</body>
+</html>
